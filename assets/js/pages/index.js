@@ -20,10 +20,10 @@ function renderAccueil() {
   // remet le HTML COMPLET 
   mount(`
    
-    <h1 class="text-sm mt-20px">Liste des campings au Québec</h1>
-    <p class="text-lime-200 text-1xl mb-[10px]">Ce site regroupe des établissements d’hébergement touristique du Québec de catégorie générale.</p>
+    <h1 class="text-5xl text-amber-300 font-semibold font-medium mt-20px">Liste des campings au Québec</h1>
+    <p class="text-xl font-medium text-lime-200 mb-[10px]">Ce site regroupe des établissements d’hébergement touristique du Québec de catégorie générale.</p>
 
-    <div class="input-group bg-green-600 text-teal-50 p-2 w-[75ch] rounded-xl">
+    <div class="input-group bg-green-600 text-lime-200 p-2 w-[75ch] rounded-xl">
   <label for="search" class="sr-only">Rechercher un camping</label>
   <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
 
